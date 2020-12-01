@@ -1,0 +1,73 @@
+:root{
+  /* colors */
+--bronze: #ca7a3bff;
+--old-burgundy: rgb(68, 50, 46);
+--silver-pink: #ddc4bdff;
+--champagne-pink: #fce5d5ff;
+--van-dyke-brown: #653924ff;
+
+}
+html{
+    scroll-behavior: smooth;
+}
+.jumbotron{
+    height: 100vh;
+    background: rgba(0, 0, 0, .15) url(jumbotron.jpg);
+    background-size: cover;
+    background-position-y: center;
+    align-self: center;
+    background-blend-mode: darken
+}
+.navbar{
+  background-color: transparent;
+}
+
+.container2{
+    text-align: center
+}
+.first-thing{
+  text-align: center;
+  color: var(--champagne-pink) ;
+}
+
+.second-thing{ 
+  text-align: center;
+  color: var(--champagne-pink) ;
+}
+
+.menubtn{
+  background-color: var(--bronze);
+  border-color ;
+}
+
+
+#button-addon2{
+  background-color:  #ca7a3bff;
+  border-color:white;
+}
+
+#and{
+ color: var(--old-burgundy) 
+}
+
+#and2{
+   color: var(--old-burgundy)
+ }
+
+
+
+ #qwertyuiop{
+   color:var(--bronze)
+ }
+
+
+ #asdfghjkl{
+   color:var(--bronze)
+ }
+
+#zxcvbnm{
+  color: var(--silver-pink)
+}
+#scrollbutton{
+  background-color: var(--champagne-pink)
+}
